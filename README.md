@@ -35,7 +35,7 @@ buffer, then `memcpy`). Allocation policy is unchanged.
 ## Results
 
 Radeon 8060S (RADV STRIX_HALO), Mesa 26.0.8, kernel 7.0.0, Ryzen AI Max+ 395.
-Model: Qwen3.6-35B-A3B Q4_K_M, `--ctx-size 42000 -fa on --parallel 1`, nothing else loaded on
+Model: Qwen3.6-35B-A3B Q4_K_M (`Qwen3.6-35B-A3B-MTP-Q4_K_M.gguf`, MTP head unused), `--ctx-size 42000 -fa on --parallel 1`, nothing else loaded on
 the GPU. Prompt-eval ms from `/completion` timings.
 
 b10723 (`results/stock-b10723.txt`, `results/patched-b10723.txt`):
