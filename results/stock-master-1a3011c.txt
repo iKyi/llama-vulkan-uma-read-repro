@@ -1,0 +1,12 @@
+cached prefix + N new words   (prompt_n tokens evaluated, prompt_ms)
+  N=1        2 tok     325.6 ms
+  N=4        8 tok     631.1 ms
+  N=16      38 tok     748.2 ms
+  N=51     143 tok     777.6 ms
+  N=200    690 tok    1237.0 ms
+  N=800   3090 tok    3319.8 ms
+cold, cache_prompt=false
+  N=16      29 tok     405.2 ms
+  N=51      92 tok     444.9 ms
+  N=222    400 tok     624.3 ms
+  N=1000  1801 tok    1918.8 ms
